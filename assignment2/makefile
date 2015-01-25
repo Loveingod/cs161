@@ -1,6 +1,4 @@
-
 PROGS := randNums ticketIncome tempConvert loanPayments
-
 
 all: $(PROGS)
 
@@ -15,7 +13,6 @@ tempConvert: tempConvert.cpp
 
 loanPayments: loanPayments.cpp
 	g++ -g loanPayments.cpp -o loanPayments
-
 
 clean:
 	rm -f $(PROGS) *.o *~
