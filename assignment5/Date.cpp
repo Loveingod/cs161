@@ -307,7 +307,7 @@ int main() {
 		if ((choice < 1) || (choice > 4)) {
 			cout << "Invalid choice.  Choice must be 1, 2, 3, or 4." << endl << endl;
 		}
-	} while ((choice != 1) && (choice != 2) && (choice != 3) && (choice != 4));
+	} while ((choice < 1) || (choice > 4));
 
 	switch (choice) {
 		case 1:
