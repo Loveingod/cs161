@@ -1,0 +1,31 @@
+Name:  Marc Clinedinst
+
+Activity:  Group Discussion, Division of Labor
+Minutes:  15
+
+Activity:  Reading Chapter 7 and "playing" with every example
+Minutes:  180
+
+Activity:  Completing my section of the group work
+Minutes:  60
+
+Activity:  Writing Date.hpp and Date.cpp
+Minutes:  45
+
+Activity:  Writing DiceCup.hpp and DiceCup.cpp
+Minutes:  45
+
+Activity:  Writing Box.hpp and Box.cpp
+Minutes:  45
+
+Activity:  Writing Hero.hpp and Hero.cpp
+Minutes:  45
+
+Activity:  Writing Reflection
+Minutes:  30
+
+Activity:  Quiz
+Minutes:  5 Minutes
+
+Activity:  Watching Lectures/Demos
+Minutes:  60

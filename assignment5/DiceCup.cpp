@@ -95,7 +95,7 @@ int DiceCup::rollDice() {
 	int total = 0;
 	int dieValue;
 
-	cout << "Rolling " << numDice << " which have " << numFaces << " face" << (numFaces > 1 ? "s" : "") << ": " << endl;
+	cout << "Rolling " << numDice << " dice which have " << numFaces << " face" << (numFaces > 1 ? "s" : "") << ": " << endl;
 	for (int die = 1; die <= numDice; die++) {
 		dieValue = rand() % numFaces + 1;		// generate a random number for each die
 		total += dieValue;						// keep running total of values for each die
