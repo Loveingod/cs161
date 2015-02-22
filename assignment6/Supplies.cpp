@@ -119,7 +119,7 @@ number of parts.
 of thing1s to be created.
 *********************************************************************/
 void Supplies::produceThing1(int quantity) {
-	if ((numThingamajigs - (1 * quantity) > 0) && (numWatchamacallits - (2 * quantity)) && (numFramistats - (1 * quantity))) {
+	if ((numThingamajigs - (1 * quantity) >= 0) && (numWatchamacallits - (2 * quantity) >= 0) && (numFramistats - (1 * quantity) >= 0)) {
 		setNumThingamajigs(numThingamajigs - (1 * quantity));
 		setNumWatchamacallits(numWatchamacallits - (2 * quantity));
 		setNumFramistats(numFramistats - (1 * quantity));		
@@ -138,7 +138,7 @@ appropriate number of parts are deducted from the number of parts.
 of thing2s to be created.
 *********************************************************************/
 void Supplies::produceThing2(int quantity) {
-	if ((numThingamajigs - (2 * quantity) > 0) && (numFramistats - (1 * quantity))) {
+	if ((numThingamajigs - (2 * quantity) >= 0) && (numFramistats - (1 * quantity) >= 0)) {
 		setNumThingamajigs(numThingamajigs - (2 * quantity));
 		setNumFramistats(numFramistats - (1 * quantity));		
 	} else {

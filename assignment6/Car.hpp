@@ -25,7 +25,7 @@ class Car {
 
 	public:
 		Car();							// default constructor which sets year to 0, make to "", and speed to 0
-		Car(int, string, int);			// constructor that sets year, make, and speed to values set by user
+		Car(int, string);			// constructor that sets year, make, and speed to values set by user
 		void setYear(int);				// mutator method for setting value of year to value provided by user
 		void setMake(string);			// mutator method for setting value of make to value provided by user
 		void setSpeed(int);				// mutator method for setting value of speed to value provided by user

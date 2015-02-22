@@ -36,10 +36,10 @@ these values for the created object.
 year, a string value representing make, and an integer value
 represetning speed.
 *********************************************************************/
-Car::Car(int y, string m, int s) {
+Car::Car(int y, string m) {
 	setYear(y);
 	setMake(m);
-	setSpeed(s);
+	setSpeed(0);
 }
 
 /*********************************************************************
@@ -135,7 +135,6 @@ void displayProgramDescription() {
 int main() {
 	int year, speed, choice;
 	string make;
-	Car car;										// create car using default constructor
 
 	displayProgramDescription();
 
@@ -147,8 +146,7 @@ int main() {
 	cout << "Enter the make of the car:\n> ";
 	getline(cin, make);
 
-	car.setYear(year);								// adjust values for year and make to match values
-	car.setMake(make);								// provided by user
+	Car car(year, make);
 
 	do {
 		cout << endl;
